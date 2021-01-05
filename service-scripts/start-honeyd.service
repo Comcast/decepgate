@@ -1,0 +1,16 @@
+[Unit]
+Description=Honeyd file swap .
+#services needs to be started after this service need to add here
+#After=
+
+#Required  dependencies
+#Requires=
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=3s
+RemainAfterExit=yes
+ExecStart= /bin/sh /usr/bin/script.sh &
+
+

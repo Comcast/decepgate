@@ -1,0 +1,13 @@
+[Unit]
+Description=Honeyd config receiver service.
+#To start any service after starting current service
+#After=
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStartPre=/bin/mkdir -p /tmp/honeyd_tmp
+ExecStart= /usr/bin/conf_recv -p 8083 &
+
+[Install]
+WantedBy=multi-user.target

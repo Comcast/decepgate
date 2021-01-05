@@ -1,0 +1,13 @@
+[Unit]
+Description=Honeyd file notifier service.
+#In after can add any service which needs to be started after this service
+After=config_receiver.service
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart= /usr/bin/inotify_decepgate /tmp/honeyd_tmp /usr/bin/start_honeyd.sh 1  *.conf &
+
+[Install]
+WantedBy=multi-user.target
+
