@@ -1,0 +1,11 @@
+pandas==1.0.3
+matplotlib==2.1.1
+Flask==0.12.2
+watchdog==0.10.2
+numpy==1.13.3
+plotly==4.4.1
+dash_table_experiments==0.6.0
+dash_core_components==1.7.0
+dash_cytoscape==0.1.1
+dash==0.37.0
+dash_html_components==1.0.2
