@@ -1,5 +1,5 @@
 # DecepGate
-DecepGate helps building Honeypots and Honeynets on devices with limited resources such as gateways and embedded devices. DecepGate also gives the abaility to manage decoys through a full fledge portal. The portal helps to create profiles, deploy decoys, collect logs and visualize them, and reconfigure the decoys. Below, we provide details on the architecture of the DecepGate and its components.
+DecepGate helps building Honeypots and Honeynets on devices with limited resources such as gateways and embedded devices. DecepGate also gives the ability to manage decoys through a full fledge portal. The portal helps to create profiles, deploy decoys, collect logs and visualize them, and reconfigure the decoys. Below, we provide details on the architecture of the DecepGate and its components.
 
 # Overall End-to-End Architecture of DecepGate
 <p align="center">
